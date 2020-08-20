@@ -49,7 +49,7 @@ rxversion="8.3">
 		enabled="True"
 		optional="False">
 			<comment>
-				added action
+				new
 			</comment>
 			<bindings>
 			</bindings>
