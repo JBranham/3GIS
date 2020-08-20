@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="da3b2bc7-526d-47dd-b196-99cdf4d25f37"
 name="MyWebVIPTestRepository"
 rxversion="8.3">
@@ -66,16 +65,6 @@ rxversion="8.3">
 				</basepath>
 			</folder>
 			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="161832a9-d4f0-4a46-b6c2-d4a9275c9054"
-			name="InputTagAdd"
-			refimgid="2291e896-ee95-4644-aac1-6183b096e004"
-			refpath="/dom[@domain='www.ranorex.com']//input[#'Add']"
-			searchtimeout="30000ms">
-				/dom[@domain='www.ranorex.com']//input[#'Add']
-			</item>
-			<item
 			addcaps="unknown,webelement,tdtag"
 			capname="tdtag"
 			id="fdd88167-94cf-4273-9873-0bb034b7af78"
@@ -84,6 +73,16 @@ rxversion="8.3">
 			refpath="/dom[@domain='www.ranorex.com']//td[#'count']"
 			searchtimeout="30000ms">
 				/dom[@domain='www.ranorex.com']//td[#'count']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="161832a9-d4f0-4a46-b6c2-d4a9275c9054"
+			name="InputTagAdd"
+			refimgid="2291e896-ee95-4644-aac1-6183b096e004"
+			refpath="/dom[@domain='www.ranorex.com']//input[#'Add']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//input[#'Add']
 			</item>
 			<folder
 			capname="unknown"

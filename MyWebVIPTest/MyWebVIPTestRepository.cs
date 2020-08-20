@@ -88,8 +88,8 @@ namespace MyWebVIPTest
             MyWebVIPTestRepositoryFolders.Category_RootedFolderFolder _category_rootedfolder;
             MyWebVIPTestRepositoryFolders.RadioButtons_RootedFolderFolder _radiobuttons_rootedfolder;
             MyWebVIPTestRepositoryFolders.InputFields_SimpleFolderFolder _inputfields_simplefolder;
-            RepoItemInfo _inputtagaddInfo;
             RepoItemInfo _countInfo;
+            RepoItemInfo _inputtagaddInfo;
 
             /// <summary>
             /// Creates a new RanorexVIPDatabaseTestWebApplicatio  folder.
@@ -100,8 +100,8 @@ namespace MyWebVIPTest
                 _category_rootedfolder = new MyWebVIPTestRepositoryFolders.Category_RootedFolderFolder(this);
                 _radiobuttons_rootedfolder = new MyWebVIPTestRepositoryFolders.RadioButtons_RootedFolderFolder(this);
                 _inputfields_simplefolder = new MyWebVIPTestRepositoryFolders.InputFields_SimpleFolderFolder(this);
-                _inputtagaddInfo = new RepoItemInfo(this, "InputTagAdd", ".//input[#'Add']", 30000, null, "161832a9-d4f0-4a46-b6c2-d4a9275c9054");
                 _countInfo = new RepoItemInfo(this, "Count", ".//td[#'count']", 30000, null, "fdd88167-94cf-4273-9873-0bb034b7af78");
+                _inputtagaddInfo = new RepoItemInfo(this, "InputTagAdd", ".//input[#'Add']", 30000, null, "161832a9-d4f0-4a46-b6c2-d4a9275c9054");
             }
 
             /// <summary>
@@ -129,30 +129,6 @@ namespace MyWebVIPTest
             }
 
             /// <summary>
-            /// The InputTagAdd item.
-            /// </summary>
-            [RepositoryItem("161832a9-d4f0-4a46-b6c2-d4a9275c9054")]
-            public virtual Ranorex.InputTag InputTagAdd
-            {
-                get
-                {
-                    return _inputtagaddInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The InputTagAdd item info.
-            /// </summary>
-            [RepositoryItemInfo("161832a9-d4f0-4a46-b6c2-d4a9275c9054")]
-            public virtual RepoItemInfo InputTagAddInfo
-            {
-                get
-                {
-                    return _inputtagaddInfo;
-                }
-            }
-
-            /// <summary>
             /// The Count item.
             /// </summary>
             [RepositoryItem("fdd88167-94cf-4273-9873-0bb034b7af78")]
@@ -173,6 +149,30 @@ namespace MyWebVIPTest
                 get
                 {
                     return _countInfo;
+                }
+            }
+
+            /// <summary>
+            /// The InputTagAdd item.
+            /// </summary>
+            [RepositoryItem("161832a9-d4f0-4a46-b6c2-d4a9275c9054")]
+            public virtual Ranorex.InputTag InputTagAdd
+            {
+                get
+                {
+                    return _inputtagaddInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InputTagAdd item info.
+            /// </summary>
+            [RepositoryItemInfo("161832a9-d4f0-4a46-b6c2-d4a9275c9054")]
+            public virtual RepoItemInfo InputTagAddInfo
+            {
+                get
+                {
+                    return _inputtagaddInfo;
                 }
             }
 
