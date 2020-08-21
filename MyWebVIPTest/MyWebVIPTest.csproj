@@ -196,6 +196,10 @@
       <id>dba7b58e-d06d-4258-b707-f2399f550765</id>
       <recordtableid>6621484a-98b3-469f-8c10-c29df26737b7</recordtableid>
     </None>
+    <None Include="Run.bat">
+      <id>ebcd0b4c-c489-4b30-bb5f-855902c65aef</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="StartApp.rxrec">
       <BoundTo>4f09755c-526f-461f-8eb5-f72aaf885fbb</BoundTo>
       <id>2c862242-9a47-4863-9b5b-137f2fc0bd15</id>

@@ -3,6 +3,10 @@
 rxversion="8.3">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testcase
+			id="18af7384-d260-4ef8-b80a-730907f04db6"
+			name="TestCase">
+			</testcase>
 			<testmodule
 			id="24ad07dd-9e00-49ae-91ab-e97416c4c3c5"
 			name="AddVIPs"
@@ -13,6 +17,10 @@ rxversion="8.3">
 			id="24c97d84-0d74-49ac-bd9d-35838ac4c0d4"
 			name="TC1">
 			</testcase>
+			<smartfoldernode
+			id="35971538-11c1-4c6a-8a92-2569498e71f5"
+			name="FeatureATests">
+			</smartfoldernode>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -32,6 +40,10 @@ rxversion="8.3">
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testcase
+			id="4615786f-e5c6-4b34-997d-c8abb5dd7bbc"
+			name="TestCase">
+			</testcase>
 			<testmodule
 			id="487946a4-b583-420b-864c-347b5d18c384"
 			name="StartApp"
@@ -51,6 +63,18 @@ rxversion="8.3">
 				</description>
 			</testmodule>
 			<testcase
+			id="8b74eb5f-bc9c-4ec4-aee0-b4083a73b23e"
+			name="TestCase">
+			</testcase>
+			<smartfoldernode
+			id="a17ba3c9-673f-48f1-a734-50d2ec0181ff"
+			name="SmokeTests">
+			</smartfoldernode>
+			<smartfoldernode
+			id="affd8d43-dfcb-4c56-8261-83fd1dfac1fa"
+			name="FeatureBTests">
+			</smartfoldernode>
+			<testcase
 			id="b61142aa-7664-492d-a08b-f6f033e66b7f"
 			name="MyWebVIPTest"
 			reportlevel="Info;20">
@@ -63,22 +87,46 @@ rxversion="8.3">
 				<testcase
 				id="b61142aa-7664-492d-a08b-f6f033e66b7f"
 				name="MyWebVIPTest">
-					<testcase
-					id="24c97d84-0d74-49ac-bd9d-35838ac4c0d4"
-					name="TC1">
-						<testmodule
-						id="487946a4-b583-420b-864c-347b5d18c384"
-						name="StartApp">
-						</testmodule>
-						<testmodule
-						id="24ad07dd-9e00-49ae-91ab-e97416c4c3c5"
-						name="AddVIPs">
-						</testmodule>
-						<testmodule
-						id="7acd202a-b9f0-4a4c-ac63-14f4d88f88cc"
-						name="CloseApp">
-						</testmodule>
-					</testcase>
+					<smartfoldernode
+					id="a17ba3c9-673f-48f1-a734-50d2ec0181ff"
+					name="SmokeTests">
+						<testcase
+						id="24c97d84-0d74-49ac-bd9d-35838ac4c0d4"
+						name="TC1">
+							<testmodule
+							id="487946a4-b583-420b-864c-347b5d18c384"
+							name="StartApp">
+							</testmodule>
+							<testmodule
+							id="24ad07dd-9e00-49ae-91ab-e97416c4c3c5"
+							name="AddVIPs">
+							</testmodule>
+							<testmodule
+							id="7acd202a-b9f0-4a4c-ac63-14f4d88f88cc"
+							name="CloseApp">
+							</testmodule>
+						</testcase>
+						<testcase
+						id="18af7384-d260-4ef8-b80a-730907f04db6"
+						name="TestCase">
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="35971538-11c1-4c6a-8a92-2569498e71f5"
+					name="FeatureATests">
+						<testcase
+						id="8b74eb5f-bc9c-4ec4-aee0-b4083a73b23e"
+						name="TestCase">
+						</testcase>
+					</smartfoldernode>
+					<smartfoldernode
+					id="affd8d43-dfcb-4c56-8261-83fd1dfac1fa"
+					name="FeatureBTests">
+						<testcase
+						id="4615786f-e5c6-4b34-997d-c8abb5dd7bbc"
+						name="TestCase">
+						</testcase>
+					</smartfoldernode>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -90,7 +138,25 @@ rxversion="8.3">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="18af7384-d260-4ef8-b80a-730907f04db6">
+			</testcontainer>
+			<testcontainer
 			id="24c97d84-0d74-49ac-bd9d-35838ac4c0d4">
+			</testcontainer>
+			<testcontainer
+			id="35971538-11c1-4c6a-8a92-2569498e71f5">
+			</testcontainer>
+			<testcontainer
+			id="4615786f-e5c6-4b34-997d-c8abb5dd7bbc">
+			</testcontainer>
+			<testcontainer
+			id="8b74eb5f-bc9c-4ec4-aee0-b4083a73b23e">
+			</testcontainer>
+			<testcontainer
+			id="a17ba3c9-673f-48f1-a734-50d2ec0181ff">
+			</testcontainer>
+			<testcontainer
+			id="affd8d43-dfcb-4c56-8261-83fd1dfac1fa">
 			</testcontainer>
 			<testcontainer
 			id="b61142aa-7664-492d-a08b-f6f033e66b7f">
